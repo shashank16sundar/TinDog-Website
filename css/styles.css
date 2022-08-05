@@ -1,0 +1,239 @@
+/* ROOT TAGS*/
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+/* HEADINGS */
+.main-heading {
+  color: #FFF;
+  margin-bottom: 50px;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #FF4C68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/*NAVIGATION BAR */
+.navbar {
+  padding-bottom: 70px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+/* TITLE SECTION */
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+.iphone-mockup {
+  position: absolute;
+  margin-left: 4rem;
+  width: 20%;
+}
+
+.rotated {
+  transform: rotate(25deg);
+  /* Equal to rotateZ(45deg) */
+}
+
+/* Download Buttons */
+.download-btn {
+  margin-right: 3%;
+}
+
+/* Features and Guarantees*/
+#features {
+  position: relative;
+  padding-bottom: 3%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.fa-icon {
+  font-size: 4rem;
+  color: #EF8172;
+  margin: 15% auto 4%;
+}
+
+.fa-icon:hover {
+  color: #FF4C68;
+}
+
+.feature-paragraph {
+  margin: auto auto 3%;
+  width: 75%;
+  color: #8F8F8F;
+}
+
+/* Testimonials Section */
+#testimonials, #press, #cta{
+  background-color: #EF8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 15%;
+  margin: 3%;
+}
+
+/* PRESS */
+#press {
+  padding-bottom: 3%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.press-logo {
+  width: 12.5%;
+  margin: 1.5% 3% 3%;
+}
+
+/*PRICING SECTION */
+#pricing {
+  padding: 8%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA SECTION */
+#cta {
+  padding: 7% 15%;
+}
+
+/* FOOTER */
+.fa-footer {
+  color: #000;
+  margin: 5% 0.8% 1.5%;
+}
+
+.footer-para {
+  color: #8F8F8F;
+}
+
+@media (max-width: 1024px) {
+
+  /* Landing Page */
+  .navbar-brand
+  {
+    font-size: 4rem;
+  }
+  .main-heading
+  {
+    font-size: 6rem;
+    width: 100%;
+  }
+  .download-btn {
+    margin-bottom: 4%;
+    font-size: 3rem;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .iphone-mockup {
+    position: static;
+    width: 70%;
+    margin-top: 3%;
+    margin-right: 15%;
+    transform: rotate(0deg);
+  }
+
+  /* Features */
+
+  .fa-icon
+  {
+    font-size: 6em;
+  }
+
+  .feature-title
+  {
+    font-size: 3em;
+  }
+
+  .feature-paragraph
+  {
+    font-size: 1.5em;
+  }
+
+  /* Testimonials & Press */
+  .testimonial-image
+  {
+    width: 30%;
+  }
+  .testimonial-name
+  {
+    font-size: 1.5em;
+  }
+
+  .press-logo
+  {
+    width: 15%;
+  }
+
+  /* Footer */
+
+  .fa-footer
+  {
+    font-size: 3.5em;
+    margin-right: 7.5%;
+    margin-bottom: 5%;
+  }
+
+  .footer-para
+  {
+    font-size: 1.3em;
+  }
+}
